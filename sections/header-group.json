@@ -4,6 +4,7 @@
   "sections": {
     "annoucement": {
       "type": "annoucement",
+      "disabled": true,
       "settings": {
         "show_announcement": true,
         "homepage_only": true,
@@ -40,8 +41,6 @@
         "header_sticky": true,
         "transparent_on_top": false,
         "logo_text": "MINIMOG",
-        "logo": "",
-        "logo_transparent": "",
         "logo_svg": "",
         "logo_mobile_svg": "",
         "logo_transparent_svg": "",
@@ -60,7 +59,10 @@
         "show_compare_icon": false,
         "show_currency_switcher": false,
         "show_country_selector": false,
-        "show_language_switcher": false
+        "show_language_switcher": false,
+        "mb_show_currency_switcher": false,
+        "mb_show_country_selector": false,
+        "mb_show_language_switcher": false
       }
     }
   },
